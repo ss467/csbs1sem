@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+
+body{
+  font-family:cursive;
+  background-image: url("b.jpg");
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.mainheading{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 25%;
+    color: rgb(224, 238, 238);
+    font-weight: 300;
+}
+
+.introduction{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 15%;
+    font-weight: 200;
+    color: rgb(224, 238, 238);
+}
+
+.top1{
+    background-color: rgba(224, 233, 233,0.5);
+    box-sizing: border-box;
+    margin-top: 50px;
+    width: 1500px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.dms{
+    font-weight: 300;
+    margin-left: 25%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.books{
+    color: white;
+    margin-top: 15px;
+    margin-left: 5%;
+    font-weight: 400;
+}
+
+.textbook{
+    
+    margin-left: 2%;
+    /*background-color: rgba(221, 208, 208,0.5)*/
+}
+
+.dmsi{
+    margin-top: 50px;
+
+}
+
+.description{
+    color: white;
+    font-weight: 200;
+    margin-top: 25px;
+    margin-bottom: 0;
+    
+}
+
+.QP{
+    margin-left: 2%;
+    background-color: rgba(141, 123, 123, 0.5);
+    margin-top: 5px;
+}
+
+.QPS{
+    color: white;
+    margin-top: 15px;
+    margin-left: 5%;
+    font-weight: 400;
+}
+
+
+.logo-image{
+    height: 50%;
+    width: 400px;
+    margin-top: 5%;
+    margin-left: 35%;
+    position: relative;
+    border-radius: 20px;
+}
+
+
+
+
+@media(max-width:768px){
+    .mainheading{
+        position:relative;
+        padding-bottom: 20px;
+        padding-top: 30px;
+        margin-left: 10%;
+    }
+    .introduction{
+        position: relative;
+        margin-left: 10%;
+        font-size:medium;
+    }
+    .dms,.dmsp{
+        position: relative;
+        margin-left: 4%;
+        height: 250px;
+    }
+    body{
+        background-image: url("back.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+       
+    }
+
+    .top1{
+    background-color: rgba(224, 233, 233,0.5);
+    box-sizing: border-box;
+    margin-top: 50px;
+    width: 380px;
+    border-radius: 20px;
+    }
+    .logo-image{
+        position: relative;
+        border-radius: 20px;
+        margin-left: 5%;
+    }
+   
+
+}
